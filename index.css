@@ -10,6 +10,7 @@
 
 /* Add a black background color to the top navigation */
 .top-nav {
+    text-align: center;
     /* background-color: #2a324b; */
     overflow: hidden;
   }
@@ -36,14 +37,12 @@
     color: #e1e5ee;
   }
 
-  /* .contact {
-    overflow: hidden;
-  } */
+  .contact {
+    text-align: center;
+  }
 
   .contact a {
-      /* float: center; */
       color: black;
-      text-align: center;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
@@ -54,5 +53,5 @@
   }
 
   .copy {
-      float: center;
+      text-align: center;
   }
