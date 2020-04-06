@@ -1,5 +1,5 @@
 * {
-    background-color: #7c616c;
+    background-color: #767b91;
     font-family: 'Gotu', sans-serif;
     /* font-family: 'Baloo Thambi 2', cursive; */
 }
@@ -7,3 +7,52 @@
 /* body {
 
 } */
+
+/* Add a black background color to the top navigation */
+.top-nav {
+    /* background-color: #2a324b; */
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .top-nav a {
+    /* float: left; */
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .top-nav a:hover {
+    background-color: #2a324b;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .top-nav a.active {
+    /* background-color: #2a324b; */
+    color: #e1e5ee;
+  }
+
+  /* .contact {
+    overflow: hidden;
+  } */
+
+  .contact a {
+      /* float: center; */
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  .contact a:hover {
+      background-color: #2a324b;
+      color: black;
+  }
+
+  .copy {
+      float: center;
+  }
