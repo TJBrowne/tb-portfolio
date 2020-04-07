@@ -1,5 +1,5 @@
 * {
-    background-color: #767b91;
+    background-color: #faf9f9;
     font-family: 'Gotu', sans-serif;
     /* font-family: 'Baloo Thambi 2', cursive; */
 }
@@ -9,7 +9,6 @@
     /* background-color: #2a324b; */
     overflow: hidden;
   }
-  /* Style links inside nav bar */
   .top-nav a {
     /* float: left; */
     color: black;
@@ -18,15 +17,21 @@
     text-decoration: none;
     font-size: 25px;
   }
-  /* Change  color of links on hover */
   .top-nav a:hover {
-    background-color: #2a324b;
+    background-color: #555b6e;
     color: black;
   }
-  /* Add a color to the active/current link */
   .top-nav a.active {
     /* background-color: #2a324b; */
-    color: #e1e5ee;
+    color: #89b0ae;
+  }
+
+  #home {
+    text-align: center;
+  }
+
+  #resume {
+      text-align: center;
   }
 
   #contact {
@@ -43,6 +48,6 @@
       color: black;
   }
 
-  #copy {
+  .copy {
       text-align: center;
   }
