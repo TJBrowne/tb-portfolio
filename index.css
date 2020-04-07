@@ -29,20 +29,20 @@
     color: #e1e5ee;
   }
 
-  .contact {
+  #contact {
     text-align: center;
   }
-  .contact a {
+  #contact a {
       color: black;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
   }
-  .contact a:hover {
+  #contact a:hover {
       background-color: #2a324b;
       color: black;
   }
 
-  .copy {
+  #copy {
       text-align: center;
   }
